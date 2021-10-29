@@ -1,0 +1,14 @@
+.manage-db>li{
+  height: 30px !important;
+  line-height: 30px;
+  overflow: hidden;
+}
+.menu-float{
+  position: relative;
+  left: 80%;
+  top: -85%;
+  /*background-color: #fff;*/
+  z-index: 2;
+  width: 255px;
+  text-align: center;
+}

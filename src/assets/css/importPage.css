@@ -1,0 +1,132 @@
+.text{
+  text-align: left;
+  /*margin-left: 20px;*/
+  line-height: 32px;
+}
+.item-list-module{
+  width: 23%;
+  height: 59%;
+  float: left;
+  /*margin: 2% 0 0 1.6%;*/
+  margin: 2% 0 0 7.5%;
+}
+.module-content{
+  width: 241px;
+  height: 118px;
+  margin: 5.7% auto;
+  padding: 1% 2.5% 0 2.5%;
+  background-image: url("../images/import-content-border.png");
+}
+.module-title-color{
+  width: 40px;
+  height: 3px;
+}
+.module-title{
+  margin: 5.8% auto;
+}
+.module-name{
+  margin-left: 16px;
+  vertical-align: middle;
+  /*width: 267px;*/
+  /*overflow: hidden;*/
+  /*text-overflow:ellipsis;*/
+  /*white-space: nowrap;*/
+}
+.module-button {
+  margin-top: 3%;
+}
+.button-down{
+  background-color: #3797e9;
+}
+.button-upload{
+  background-color: #63cdda;
+}
+.button-icon{
+  width: 17px;
+  height: 14px;
+  position: absolute;
+  left: 12%;
+  top: 25%;
+}
+.icon-down{
+  background-image: url("../images/xiaz.png");
+}
+.icon-upload{
+  background-image: url("../images/shangc.png");
+}
+.dy-color{
+  background-color: #63cdda;
+}
+.xh-color{
+  background-color: #778beb;
+}
+.kx-color{
+  background-color: #f19066;
+}
+.kp-color{
+  background-color: #ea8685;
+}
+.qt-color{
+  background-color: #f5cd79;
+}
+/*滚动条*/
+/deep/ .el-scrollbar__thumb{
+  background-color: rgba(0,181,255,0.6);
+}
+/deep/ .el-scrollbar__wrap{
+  overflow-x:hidden;
+}
+/deep/.el-scrollbar__view{
+  height: 94%;
+  width: 100%;
+}
+/*  弹框*/
+.modal{
+  width: 362px;
+  height: 282px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -181px;
+  margin-top: -141px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+}
+.modal>p{
+  margin-top: 52%;
+  margin-right: 3%;
+}
+.success{
+  background-image: url("../images/import-success.png");
+}
+.fail{
+  background-image: url("../images/import-fail.png");
+}
+.click-btn{
+  opacity: 0.5;
+}
+.set-li li:nth-of-type(1) {
+  margin: 1% auto;
+}
+.span-img {
+  margin: 0 10px 0 10px;
+}
+.module-title{
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: default;
+}
+.button-content {
+  width: 80px;
+  height: 30px;
+  color: #ffffff;
+  border-radius: 4px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
